@@ -328,4 +328,4 @@ If you prefer Docker over npx:
 
 This power integrates with [MongoDB MCP Server] (Apache-2.0).
 - [Privacy Policy](https://www.mongodb.com/legal/privacy/privacy-policy)
-- [Support](https://support.mongodb.com)
+- Support: Email at [anuj.panchal@mongodb.com]
