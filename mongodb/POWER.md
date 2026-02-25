@@ -323,3 +323,9 @@ If you prefer Docker over npx:
 - [MongoDB Atlas Documentation](https://www.mongodb.com/docs/atlas/)
 - [MongoDB Aggregation Pipeline Reference](https://www.mongodb.com/docs/manual/reference/operator/aggregation/)
 - [MongoDB Node.js Driver Documentation](https://www.mongodb.com/docs/drivers/node/current/)
+
+## License and support
+
+This power integrates with [MongoDB MCP Server] (Apache-2.0).
+- [Privacy Policy](https://www.mongodb.com/legal/privacy/privacy-policy)
+- [Support](https://support.mongodb.com)
