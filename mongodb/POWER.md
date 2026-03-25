@@ -1,9 +1,9 @@
 ---
 name: "mongodb"
-displayName: "MongoDB"
+displayName: "Build applications with MongoDB"
 description: "Build applications with MongoDB - query databases, manage collections, create indexes, run aggregations, and manage Atlas clusters"
 keywords: ["mongodb", "mongo", "nosql", "database", "atlas", "aggregation", "collection", "document", "schema"]
-author: "Anuj Panchal"
+author: "MongoDB"
 ---
 
 # MongoDB Power
