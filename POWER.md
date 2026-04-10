@@ -1,9 +1,9 @@
 ---
 name: "mongodb"
-displayName: "Build applications with MongoDB"
-description: "Build applications with MongoDB - query databases, manage collections, create indexes, run aggregations, and manage Atlas clusters"
-keywords: ["mongodb", "mongo", "nosql", "database", "atlas", "aggregation", "collection", "document", "schema"]
-author: "MongoDB"
+displayName: "MongoDB"
+description: "Build applications with MongoDB - query databases, manage collections, create indexes, run aggregations, manage Atlas clusters, optimize connection pools and timeouts, design schemas with proven patterns, translate natural language to queries, diagnose slow queries with explain plans, implement full-text and vector search, and build streaming pipelines with Atlas Stream Processing"
+keywords: ["mongodb", "mongo", "nosql", "database", "atlas", "aggregation", "collection", "document", "schema", "connection pool", "query optimization", "indexing", "explain", "slow query", "natural language query", "MQL", "vector search", "atlas search", "full-text search", "hybrid search", "semantic search", "RAG", "stream processing", "kafka", "schema design", "embed vs reference", "mcp setup", "connection string"]
+author: "MongoDB Inc."
 ---
 
 # MongoDB Power
@@ -22,6 +22,13 @@ This power connects you to MongoDB databases and MongoDB Atlas clusters through 
 - Create and manage local Atlas deployments for development
 - Export query and aggregation results
 - Get performance advisor recommendations for index optimization
+- Translate natural language descriptions into MongoDB queries
+- Design and optimize MongoDB schemas with proven patterns
+- Optimize slow queries using explain plans and the ESR index rule
+- Configure MongoDB connections with optimal pool and TLS settings
+- Set up and configure the MongoDB MCP server
+- Build real-time data pipelines with Atlas Stream Processing
+- Implement full-text, vector, and hybrid search with Atlas Search
 
 ### Authentication
 
@@ -40,8 +47,27 @@ The MongoDB MCP server supports two authentication methods:
 
 | File | Description |
 |------|-------------|
-| `getting-started.md` | Interactive setup walkthrough — connect to your database, verify access, and explore your data |
-| `mongodb-best-practices.md` | Schema design patterns, indexing strategies, aggregation pipeline guidance, and security best practices |
+| `atlas-stream-processing/skill.md` | Build and manage Atlas Stream Processing pipelines with Kafka, S3, Kinesis, and Lambda integrations; provision workspaces, debug processors, and optimize tier sizing |
+| `mongodb-connection/skill.md` | Optimize MongoDB connection pools, timeouts, and client configuration for serverless, OLTP, OLAP, and bursty workloads across all supported driver languages |
+| `mongodb-mcp-setup/skill.md` | Configure the MongoDB MCP server with connection strings, Atlas service account credentials, or Atlas Local; set up environment variables, read-only mode, and verify connectivity |
+| `mongodb-natural-language-querying/skill.md` | Translate plain-English data questions into schema-validated find queries and aggregation pipelines with index-aware optimization and MQL best practices |
+| `mongodb-query-optimizer/skill.md` | Diagnose slow queries using explain plans, Atlas Performance Advisor, and slow query logs; recommend compound indexes following ESR principles and identify unused indexes |
+| `mongodb-schema-design/skill.md` | Design MongoDB schemas using embed vs reference decisions, anti-pattern detection, and proven patterns (bucket, computed, polymorphic, outlier, archive) with JSON Schema validation guidance |
+| `mongodb-search-and-ai/skill.md` | Implement Atlas Search (full-text, autocomplete, faceted), Vector Search (semantic similarity, RAG), and Hybrid Search with index creation guidance and query optimization |
+
+## Available Skills
+
+Skills are steering files loaded on demand. Reference a skill by name in Kiro chat to activate it — for example, type `#mongodb-query-optimizer` or say "use the mongodb-schema-design skill". The skill's guidance is then injected into context for that conversation.
+
+| Skill File | Description | Invocation |
+|-----------|-------------|------------|
+| `atlas-stream-processing/skill.md` | Build real-time pipelines with Atlas Stream Processing; connect Kafka, S3, and Lambda | `#atlas-stream-processing` |
+| `mongodb-connection/skill.md` | Construct optimal connection strings with pool settings and TLS/SSL for production | `#mongodb-connection` |
+| `mongodb-mcp-setup/skill.md` | Configure the MongoDB MCP server, set required env vars, and enable read-only mode | `#mongodb-mcp-setup` |
+| `mongodb-natural-language-querying/skill.md` | Convert plain-English data questions into accurate `find` and `aggregate` queries | `#mongodb-natural-language-querying` |
+| `mongodb-query-optimizer/skill.md` | Diagnose slow queries, apply the ESR index rule, and eliminate COLLSCAN plans | `#mongodb-query-optimizer` |
+| `mongodb-schema-design/skill.md` | Choose embedding vs referencing, apply schema patterns, and enforce structure with JSON Schema | `#mongodb-schema-design` |
+| `mongodb-search-and-ai/skill.md` | Implement full-text search, vector search, and hybrid search with Atlas Search | `#mongodb-search-and-ai` |
 
 ## Available MCP Servers
 
