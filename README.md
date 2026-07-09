@@ -186,10 +186,10 @@ The power ships with skills adapted from [mongodb/agent-skills](https://github.c
 │   │   ├── skill.md                  # Query optimization skill
 │   │   └── references/               # Indexing principles, aggregation optimization, anti-patterns
 │   ├── mongodb-schema-design/
-│   │   ├── SKILL.md                  # Schema design skill
+│   │   ├── skill.md                  # Schema design skill
 │   │   └── references/               # 18 pattern, fundamental, and anti-pattern reference files
 │   └── mongodb-search-and-ai/
-│       ├── SKILL.md                  # Search & AI skill
+│       ├── skill.md                  # Search & AI skill
 │       └── references/               # Vector search, lexical search, hybrid search guides
 ├── tests/                            # Property-based and integration tests
 │   ├── skills.test.js                # Validates skill file structure and POWER.md integrity
