@@ -2,6 +2,8 @@
 
 A [Kiro](https://kiro.dev) power that connects your IDE directly to [MongoDB](https://mongodb.com) databases and [Atlas](https://www.mongodb.com/atlas) clusters. Query collections, design schemas, optimize indexes, translate natural language to queries, and manage Atlas infrastructure — all through natural language in your editor.
 
+MongoDB Atlas on AWS enables organizations to build intelligent, AI-powered applications that scale effortlessly. As a fully managed NoSQL database and vector search platform, Atlas unifies operational data and search in a single system, helping teams move from prototype to production with enterprise-grade security, high availability, and seamless AWS integrations. Try MongoDB Atlas (Mongo as a Service) today with the free trial tier and get 512 MB of storage at no cost. To get started, click on this [link](https://aws.amazon.com/marketplace/pp/prodview-pp445qepfdy34?applicationId=AWSMPContessa&ref_=ucaf&sr=0-1).
+
 ## What It Does
 
 This power gives Kiro the ability to talk to your MongoDB deployments via the [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server), and brings in expert guidance through skills adapted from the [mongodb/agent-skills](https://github.com/mongodb/agent-skills) repository. Instead of switching between your IDE, MongoDB Compass, and the Atlas console, you can ask Kiro things like:
